@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* 
+Tablet: 768px - 992px
+Desktop: 992px - 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (orientation: landscape) {
+    section.login {
+        flex-direction: row;
+
+    }
+
+    section.login div.imagem {
+        width: 35%;
+        height: 28rem;
+        border-radius: 2rem 0 0 2rem;
+        transition: width .3s, heigth .3s;
+        transition-timing-function: ease;
+
+    }
+
+    section.login div.formulario {
+        height: 28rem;
+        width: 57%;
+        border-radius: 0 2rem 2rem 0;
+        transition: width .3s, heigth .3s;
+        transition-timing-function: ease;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: linear-gradient(to top, rgb(73, 160, 157), rgb(95, 44, 130));
+    }
+
+    section.login {
+        flex-direction: row;
+
+    }
+
+    section.login div.imagem {
+        width: 35%;
+        height: 57%;
+        border-radius: 2rem 0 0 2rem;
+        transition: width .3s, heigth .3s;
+        transition-timing-function: ease;
+    }
+
+    section.login div.formulario {
+        height: 57%;
+        width: 57%;
+        border-radius: 0 2rem 2rem 0;
+        transition: width .3s, heigth .3s;
+        transition-timing-function: ease;
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, rgb(73, 160, 157), rgb(95, 44, 130));
+    }
+
+    section.login {
+        flex-direction: row-reverse;
+        font-size: 2rem;
+    }
+
+    section.login h1 {
+        font-size: 3.2rem;
+    }
+    
+    section.login p {
+        font-size: 1.6rem;
+    }
+
+    section.login div.imagem {
+        height: 35rem;
+        width: 40rem;
+        border-radius: 0 2rem 2rem 0;
+        transition: width .3s, heigth .3s;
+        transition-timing-function: ease;
+    }
+
+    section.login div.formulario {
+        height: 35rem;
+        width: 55rem;
+        border-radius: 2rem 0 0 2rem;
+        transition: width .3s, heigth .3s;
+        transition-timing-function: ease;
+    }
+
+}
