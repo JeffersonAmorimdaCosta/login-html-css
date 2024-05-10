@@ -38,14 +38,13 @@ Grandes telas: acima de 1200px
 
     section.login {
         flex-direction: row;
-
     }
 
     section.login div.imagem {
         width: 35%;
         height: 57%;
         border-radius: 2rem 0 0 2rem;
-        transition: width .3s, heigth .3s;
+        transition: width .3s, height .3s;
         transition-timing-function: ease;
     }
 
@@ -53,7 +52,7 @@ Grandes telas: acima de 1200px
         height: 57%;
         width: 57%;
         border-radius: 0 2rem 2rem 0;
-        transition: width .3s, heigth .3s;
+        transition: width .3s, height .3s;
         transition-timing-function: ease;
 
     }
@@ -91,6 +90,10 @@ Grandes telas: acima de 1200px
         border-radius: 2rem 0 0 2rem;
         transition: width .3s, heigth .3s;
         transition-timing-function: ease;
+    }
+
+    section.login input {
+        flex-grow: 1;
     }
 
 }
