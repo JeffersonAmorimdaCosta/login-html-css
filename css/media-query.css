@@ -9,12 +9,11 @@ Grandes telas: acima de 1200px
 @media screen and (orientation: landscape) {
     section.login {
         flex-direction: row;
-
     }
 
     section.login div.imagem {
+        height: 29rem;
         width: 35%;
-        height: 28rem;
         border-radius: 2rem 0 0 2rem;
         transition: width .3s, heigth .3s;
         transition-timing-function: ease;
@@ -22,7 +21,7 @@ Grandes telas: acima de 1200px
     }
 
     section.login div.formulario {
-        height: 28rem;
+        height: 29rem;
         width: 57%;
         border-radius: 0 2rem 2rem 0;
         transition: width .3s, heigth .3s;
@@ -41,15 +40,16 @@ Grandes telas: acima de 1200px
     }
 
     section.login div.imagem {
+        height: 27.4rem;
         width: 35%;
-        height: 57%;
         border-radius: 2rem 0 0 2rem;
         transition: width .3s, height .3s;
         transition-timing-function: ease;
     }
 
     section.login div.formulario {
-        height: 57%;
+        height: auto;
+        flex-grow: 0;
         width: 57%;
         border-radius: 0 2rem 2rem 0;
         transition: width .3s, height .3s;
@@ -74,10 +74,11 @@ Grandes telas: acima de 1200px
     
     section.login p {
         font-size: 1.6rem;
+        padding-bottom: 1rem;
     }
 
     section.login div.imagem {
-        height: 35rem;
+        height: 30.5rem;
         width: 40rem;
         border-radius: 0 2rem 2rem 0;
         transition: width .3s, heigth .3s;
@@ -85,7 +86,6 @@ Grandes telas: acima de 1200px
     }
 
     section.login div.formulario {
-        height: 35rem;
         width: 55rem;
         border-radius: 2rem 0 0 2rem;
         transition: width .3s, heigth .3s;
